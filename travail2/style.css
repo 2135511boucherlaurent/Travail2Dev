@@ -1,0 +1,395 @@
+*,::after,::before {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    background-color: #f7f7f7;
+    padding: 0px;
+    width: 100%;
+    color: #666666;
+    font-family: 'Muli', Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #212529;
+}
+
+h3 {
+    text-decoration: none;
+    color: #212529;
+}
+
+/*
+    HEADER
+ */
+
+/*
+    header partie 1 (haut)
+ */
+
+.haut-header {
+    padding-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 8px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.haut-header .centre {
+    text-align: center;
+}
+
+.haut-header .droite {
+    text-align: right;
+    float: right;
+    margin-top: 72px;
+    width: 300px;
+}
+
+.haut-header .gauche {
+    float: left;
+    width: 300px;
+    margin-top: 1px;
+}
+
+.centre img {
+    width: 320px;
+}
+
+.droite a {
+    padding: 0px 4px 20px 4px;
+    background-origin: content-box;
+    width: 25px;
+    height: 25px;
+}
+
+/*
+    header partie 2 (bas)
+ */
+
+.bas-header {
+    margin-bottom: 0px;
+}
+
+#container-haut {
+    width: 100%;
+    height: 65px;
+    padding-bottom: 0px;
+}
+
+#container-haut .titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 32.5px;
+    padding-top: 32.5px;
+}
+
+.nav-item {
+    color: #212529;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+}
+
+#formulaire {
+    float: right;
+    width: 379px;
+    height: auto;
+    margin-right: 7.5%;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: red;
+}
+
+login-popup {
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+}
+
+/*
+    BODY
+ */
+
+body {
+    background: url(https://apical.xyz/medias/commun/bg.jpg) center/cover no-repeat fixed;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.body {
+    display: flex;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+/*
+    body partie 1 (gauche)
+ */
+
+.body-gauche {
+    height: auto;
+    width: 20%;
+    float: left;
+}
+
+/*
+    body partie 2 (centre)
+ */
+
+.body-centre {
+    width: 60%;
+}
+
+/*
+    body partie 2.1 (centre 1)
+ */
+
+.body-centre .body-centre-1 {
+    background-color: #f7f7f7;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    min-height: 400px;
+}
+
+.body-centre-1 .divider-1 {
+    border-bottom: 1px solid black;
+    width: 240px;
+    height: 30px;
+    margin-left: 38%;
+}
+
+.body-centre-1 .divider-2 {
+    border-top: 1px solid black;
+    width: 240px;
+    height: 40px;
+    margin-left: 38%;
+}
+
+.body-centre-1 .contenu {
+    margin-top: 10px;
+}
+
+.information {
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.information .post {
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    height: 50px;
+    width: auto;
+}
+
+#post {
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.form {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.comment {
+    box-sizing: border-box;
+    display: none;
+    border-bottom: 1px solid black;
+    border-radius: 3px;
+    width: 100%;
+    text-align: left;
+    color: darkblue;
+}
+
+
+#bas-contenu {
+    width: 100%;
+    height: 60px;
+}
+
+.bouton-developper {
+    width: 130px;
+    height: 30px;
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    float: right;
+    margin-right: 15px;
+}
+
+/*
+    body partie 2.2 (centre 2)
+ */
+
+.body-centre-2 {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.body-centre .body-centre-2 {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.body-centre-2 .gros-divider-1 {
+    border-bottom: 1px solid white;
+    height: 10px;
+}
+
+/*
+    body partie 2.3 (centre 3)
+ */
+
+#centre-3 {
+    margin-left: 20%;
+    width: 60%;
+    text-align: center;
+}
+
+.body-centre .body-centre-3 {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.body-centre-3 .pub {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #f7f7f7;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+/*
+    body partie 2.4 (centre 4)
+ */
+
+.body-centre-4 {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.body-centre .body-centre-4 {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.body-centre-4 .gros-divider-2 {
+    border-top: 1px solid white;
+    height: 20px;
+}
+
+/*
+    body partie 3 (droite)
+ */
+
+.body-droite {
+    height: auto;
+    width: 20%;
+    float: right;
+}
+
+/*
+    page 404
+ */
+
+.body-404 {
+    margin-left: 10%;
+    width: 80%;
+    background-color: #f7f7f7;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    color: #212529;
+    text-align: center;
+}
+
+.skip {
+    width: 100%;
+    height: 20px;
+}
+
+.bouton-404 {
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    width: 180px;
+    margin-left: 43%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+    FOOTER
+ */
+
+footer {
+    background-color: #f7f7f7;
+    padding: 0px;
+}
+
+.texte {
+    color: #212529;
+}
+
+#footer-1 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.auteur a {
+    color: darkblue;
+}
+
+.bouton-menu {
+    background-color: lightgray;
+    border: 1px solid darkgray;
+    border-radius: 3px;
+    width: 120px;
+    margin-left: 47%;
+    justify-content: center;
+    align-items: center;
+}
+
